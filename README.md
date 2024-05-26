@@ -13,4 +13,4 @@ Here, we evalutate DeepWalk on the BlogCatalog dataset
 - pytorch
 - pandas
 - networkx
-- sklearn
+- scikit-learn
