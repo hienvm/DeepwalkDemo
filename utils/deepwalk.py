@@ -78,7 +78,7 @@ def train_deepwalk(
     chunk_sz: int,
 ):
     lr_step = (start_lr - end_lr) / walks_per_vertex
-    for i in tqdm.tqdm(range(walks_per_vertex)):
+    for i in tqdm(range(walks_per_vertex)):
         epoch_loss = 0.0
         cnt = 0
         random.shuffle(vertices)
