@@ -4,7 +4,7 @@ import torch.nn as nn
 from torch import Tensor, tensor
 import torch.optim as optim
 import torch.multiprocessing as mp
-import tqdm
+from tqdm.notebook import tqdm
 
 from utils.similarity import similarity
 from utils.walks import random_walk
